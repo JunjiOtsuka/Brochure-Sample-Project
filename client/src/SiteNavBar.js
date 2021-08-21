@@ -19,8 +19,8 @@ export default function SiteNavBar() {
                 <Container className="justify-content-end">
                     <Nav>
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <Nav.Link href="#review">Review</Nav.Link>
+                        <Nav.Link href="#pricing">Services</Nav.Link>
+                        <Nav.Link href="#review">Customer Review</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
