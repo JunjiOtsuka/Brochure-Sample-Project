@@ -3,6 +3,7 @@ import SiteNavBar from "./SiteNavBar";
 import SiteCard from "./SiteCard"
 import SiteTitle from "./SiteTitle"
 import SiteContact from "./SiteContact"
+import ReviewSection from "./reviewSection"
 
 export default function MainPage() {
     return (
@@ -10,6 +11,7 @@ export default function MainPage() {
             <SiteNavBar />
             <SiteTitle />
             <SiteCard />
+            <ReviewSection />
             <SiteContact />
         </>
     )

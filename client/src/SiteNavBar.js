@@ -1,12 +1,11 @@
 import { Nav, Navbar, Container, } from 'react-bootstrap'
-import React from 'react'
 
 export default function SiteNavBar() {
     return (
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar style={{position: "fixed", zIndex: "10", width: "100%"}} bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#Brand">
+                    <Navbar.Brand>
                         <img
                             alt=""
                             src="/logo.svg"
@@ -19,9 +18,10 @@ export default function SiteNavBar() {
                 </Container>
                 <Container className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <Nav.Link href="#Contact">Contact</Nav.Link>
+                        <Nav.Link href="#review">Review</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

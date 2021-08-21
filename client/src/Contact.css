@@ -1,0 +1,32 @@
+.card
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 206, 249, 0);
+}
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  100%;
+    background-color: rgb(210, 206, 255);
+    clip-path: circle(300px at right 600px);
+    z-index: -1;
+}
+
+.circle2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  100%;
+    background-color: rgb(206, 255, 215);
+    clip-path: circle(300px at left 0px);
+    z-index: -1;
+}
